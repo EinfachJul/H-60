@@ -6,7 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"vtx_UH60"};
+        requiredAddons[] = {"vtx_UH60", "vtx_uh60_config", "acre_main"};
+        skipWhenMissingDependencies = 1;
         author = "";
         authors[] = {""};
         VERSION_CONFIG;
