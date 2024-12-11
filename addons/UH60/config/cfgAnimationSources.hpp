@@ -46,31 +46,42 @@ class AnimationSources {
     initPhase=0;
   };
   class HH60Flares_show {
-    displayName = "Show HH-60 Flares";
+    //displayName = "Show HH-60 Flares";
     source="user";
     animPeriod=1;
     initPhase=0;
   };
   class HH60GRadar_show {
-    displayName = "Show HH-60 Weather Radar";
+    //displayName = "Show HH-60 Weather Radar";
     source="user";
     animPeriod=1;
     initPhase=0;
   };
   class HH60GFlir_show {
-    displayName = "Show HH-60 Flir";
+    //displayName = "Show HH-60 Flir";
     source="user";
     animPeriod=1;
     initPhase=0;
   };
   class Fuelprobe_show {
-    displayName = "Show Fuel Probe";
+    //displayName = "Show Fuel Probe";
     source="user";
     animPeriod=1;
     initPhase=0;
   };
+    class Door_LF_Hide {
+    displayName = "Hide Left Cockpit Door";
+    source = "user";
+    animPeriod=1;
+    initPhase=0;
+  };
+  class Door_RF_Hide {
+    displayName = "Hide Right Cockpit Door";
+    source = "user";
+    animPeriod=1;
+    initPhase=0;
+  };
   class Cockpitdoors_Hide {
-    displayName = "Hide Cockpit Doors";
     source="user";
     animPeriod=1;
     initPhase=0;
@@ -106,6 +117,7 @@ class AnimationSources {
     initPhase="rad 80";
   };
   class ERFS_show {
+    displayName = "Show ERFS";
     source="user";
     animPeriod=1;
     initPhase=0;
@@ -182,12 +194,14 @@ class AnimationSources {
     initPhase=0;
   };
   class cabindoor_L {
-    source="door";
+    displayName = "Close L Cabin Door"
+    source="user";
     animPeriod=1;
     initPhase=0;
   };
   class cabindoor_R {
-    source="door";
+    displayName = "Close R Cabin Door"
+    source="user";
     animPeriod=1;
     initPhase=0;
   };
