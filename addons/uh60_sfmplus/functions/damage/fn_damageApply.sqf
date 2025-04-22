@@ -23,7 +23,7 @@ params ["_heli", "_deltaTime"];
 private _rtrDmgHitName = "HitHRotor";
 private _timeToMaxDmg  = 30;
 private _dmgPerSec     = 1 / _timeToMaxDmg;
-private _transientTime = 10;
+private _transientTime = 16;
 
 private _pctNR         = (_heli getVariable "vtx_uh60_sfmplus_engPctNP" select 0) max (_heli getVariable "vtx_uh60_sfmplus_engPctNP" select 1);
 private _eng1PctTQ     = _heli getVariable "vtx_uh60_sfmplus_engPctTQ" select 0;
